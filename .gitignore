@@ -1,3 +1,5 @@
 .idea
 vendor
 .cloudbase
+docker-compose.yml
+Dockerfile.development
