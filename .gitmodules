@@ -1,0 +1,3 @@
+[submodule "docker-php"]
+	path = docker-php
+	url = git@github.com:langdonglei/docker-php.git
