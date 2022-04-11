@@ -17,7 +17,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tencent.com/g' /etc/apk/repositorie
     && rm -f /var/cache/apk/*
 WORKDIR /app
 COPY .  /app
-RUN cp /app/config_nginx /etc/nginx/conf.d/default.conf && \
+RUN cp /app/config_nginx /etc/nginx/http.d/default.conf && \
     cp /app/config_fpm /etc/php8/php-fpm.d/www.conf && \
     cp /app/config_php /etc/php8/php.ini && \
     mkdir -p /run/nginx && \
