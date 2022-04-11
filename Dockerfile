@@ -24,4 +24,4 @@ RUN cp /app/config_nginx /etc/nginx/http.d/default.conf && \
     mv /usr/sbin/php-fpm8 /usr/sbin/php-fpm && \
     composer install
 EXPOSE 80
-CMD ["sh", "run.sh"]
+CMD ["sh", "config_run"]
