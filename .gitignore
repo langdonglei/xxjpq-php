@@ -1,5 +1,10 @@
-.idea
-vendor
+/.idea
+/.vscode
+
+/vendor
 .cloudbase
 docker-compose.yml
 Dockerfile.development
+
+*.log
+.env
