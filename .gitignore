@@ -7,4 +7,3 @@ docker-compose.yml
 Dockerfile.development
 
 *.log
-.env
