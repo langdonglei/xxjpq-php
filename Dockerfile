@@ -12,6 +12,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tencent.com/g' /etc/apk/repositorie
     php8-pdo_mysql \
     php8-tokenizer \
     php8-curl \
+    php8-fileinfo \
     composer \
     nginx \
     && rm -f /var/cache/apk/*
