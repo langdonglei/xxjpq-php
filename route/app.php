@@ -4,6 +4,7 @@ use GuzzleHttp\Client;
 use think\facade\Route;
 
 Route::get('test', function () {
+    throw new Exception('test');
     $token_path = '/.tencentcloudbase/wx/cloudbase_access_token';
     if (file_exists($token_path)) {
         $token = file_get_contents($token_path);
